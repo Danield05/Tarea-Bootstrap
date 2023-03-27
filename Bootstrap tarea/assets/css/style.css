@@ -1,0 +1,110 @@
+body {
+  background-color: #b6a8a8;
+  margin-left: 5rem;
+}
+
+h1,
+h5 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 3rem;
+}
+
+header {
+  text-align: center;
+  color: rgb(25, 23, 23);
+  margin-top: 3rem;
+}
+.footer-p{
+  margin-top: 50rem;
+}
+
+
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid #9d9c9c;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #ccc;
+}
+.form legend {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.form label {
+  display: inline-block;
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.form input[type="text"],
+.form select {
+  width: 300px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.form .checkbox-group label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+
+.form input:invalid {
+  border: 1px solid red;
+}
+
+.form input:valid {
+  border: 1px solid #b2f596;
+}
+.form .button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.form button[type="button"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 60px;
+  display: inline-block;
+}
+
+input[type="submit"].btn-secondary {
+  background-color: #911433;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 60px;
+  display: inline-block;
+}
+
+.form button[type="button"]:hover {
+  cursor: pointer;
+  background-color: #45a049;
+}
+
+input[type="submit"].btn-secondary:hover {
+  cursor: pointer;
+  background-color: #6e0505;
+}
+/*imagen de la pagina mensaje.html*/
+.imagen-cancel{
+  display: block; 
+  margin: auto; 
+  max-width: 50%; 
+}
+
+.footer-m{
+  margin-top: 20rem;
+}
